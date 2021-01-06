@@ -573,10 +573,13 @@ a[data-lightbox]:hover img {
 }
 
 #lightbox-modal .modal-dialog img {
-    max-height: 90vh;
+    height: 50vh;
+    width: 50vh;
     margin: 0 auto;
 }
-
+.padding-Time{ 
+    padding: 10px 30px;
+}
 .lightbox-caption {
     padding: 20px;
     color: #FFF;
@@ -717,6 +720,18 @@ p {
 h2 {
     font-size: 22px;
     line-height: 1.4em;
+    color: #606060;
+}
+.blockquote-color{ 
+    color: #606060;
+}
+.sousligne{ 
+    border: 1px solid black;
+    width: 100%;
+    margin-top: 30px;
+}
+.margin-Time{ 
+    margin-bottom: 30px;
 }
 
 h3 {
@@ -845,11 +860,11 @@ h4 {
 }
 
 .bg-banniere {
-    background-image: url("img/la-chouette-agence-banniere.jpg");
+    background-image: url("img/la-chouette-agence-banniere-compressed (1).jpg");
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation.jpg");
 }
 
 @media (max-width: 1024px) {
