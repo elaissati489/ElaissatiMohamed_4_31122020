@@ -792,6 +792,7 @@ h4 {
 
 .black-background {
     background-color: black;
+    opacity: 0.85;
     padding: 40px 40px 40px 40px;
 }
 .marge-Time{ 
