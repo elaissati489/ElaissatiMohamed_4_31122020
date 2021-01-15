@@ -91,7 +91,7 @@ a:hover {
 }
 
 .texture-paper::before {
-    background: url("img/texture-paper.png");
+    background: url("img/texture-paper.webp");
     background-size: 280px 280px;
 }
 
@@ -133,7 +133,7 @@ a:hover {
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-    color: rgba(255, 255, 255, .6);
+    color: rgba(255, 255, 255);
 }
 
 .d-bloc .a-btn:hover,
@@ -150,7 +150,8 @@ a:hover {
 .d-bloc h5 a:hover,
 .d-bloc h6 a:hover,
 .d-bloc p a:hover {
-    color: rgba(255, 255, 255, 1);
+    color: black;
+    opacity: 0.8;
 }
 
 .d-bloc .navbar-toggle .icon-bar {
@@ -195,7 +196,7 @@ a:hover {
 
 .d-bloc .panel,
 .l-bloc {
-    color: rgba(0, 0, 0, .5);
+    color: rgba(0, 0, 0, 1);
 }
 
 .d-bloc .panel button:hover,
@@ -231,7 +232,7 @@ a:hover {
 .l-bloc h5 a,
 .l-bloc h6 a,
 .l-bloc p a {
-    color: rgba(0, 0, 0, .6);
+    color: black;
 }
 
 .d-bloc .panel .a-btn:hover,
@@ -572,10 +573,13 @@ a[data-lightbox]:hover img {
 }
 
 #lightbox-modal .modal-dialog img {
-    max-height: 90vh;
+    height: 50vh;
+    width: 50vh;
     margin: 0 auto;
 }
-
+.padding-Time{ 
+    padding: 10px 30px;
+}
 .lightbox-caption {
     padding: 20px;
     color: #FFF;
@@ -651,7 +655,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: black;
 }
 
 .container {
@@ -659,7 +663,7 @@ a {
 }
 
 .hero-bloc-text {
-    font-size: 38px;
+    font-size: 48px;
 }
 
 .hero-bloc-text-sub {
@@ -677,9 +681,13 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 17px;
 }
 
+.taille-Time{ 
+    font-size: 23px;
+    margin-bottom: 31px;
+}
 .tight-width-whitespace {
     max-width: 600px;
     margin: auto auto auto auto;
@@ -691,15 +699,20 @@ p {
 }
 
 .cta-hero {
-    margin-top: 22px;
+   /* margin-top: 22px;*/
     color: #FFFFFF!important;
     text-transform: uppercase;
     padding: 12px 28px 12px 28px;
     font-size: 16px;
     font-weight: 700;
 }
-
-.social {
+.cta-hero-pr-btn-contact{ 
+    text-transform: uppercase;
+    padding: 12px 28px 12px 28px;
+    font-size: 16px;
+    font-weight: 700;
+}
+.twit,.fb,.db,.inst{
     max-width: 400px;
     margin: auto auto auto auto;
 }
@@ -707,6 +720,18 @@ p {
 h2 {
     font-size: 22px;
     line-height: 1.4em;
+    color: #606060;
+}
+.blockquote-color{ 
+    color: #606060;
+}
+.sousligne{ 
+    border: 1px solid black;
+    width: 100%;
+    margin-top: 30px;
+}
+.margin-Time{ 
+    margin-bottom: 30px;
 }
 
 h3 {
@@ -715,7 +740,13 @@ h3 {
     font-weight: 700;
     color: #333333!important;
 }
-
+h4{ 
+    font-size: 24px;
+    line-height: 53px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #333333!important;
+}
 .med-width-whitespace {
     max-width: 800px;
     margin: auto auto auto auto;
@@ -723,9 +754,14 @@ h3 {
 }
 
 h1 {
-    color: #333333!important;
+    color: black;
 }
-
+.weight{
+    font-weight: bolder;
+}
+.text-size{ 
+    font-size: 22px;
+}
 h4 {
     color: #333333!important;
 }
@@ -738,7 +774,9 @@ h4 {
 .white {
     color: #FFFFFF!important;
 }
-
+.black{ 
+    color: black;
+}
 .portfolio-thumb {
     margin-bottom: 24px;
 }
@@ -749,14 +787,17 @@ h4 {
 }
 
 .avatar {
-    box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 4px 9px rgba(0, 0, 0, 1);
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    background-color: black;
+    opacity: 0.85;
     padding: 40px 40px 40px 40px;
 }
-
+.marge-Time{ 
+    margin-bottom: 0px;
+}
 .bold-link {
     font-weight: 900;
     text-decoration: underline!important;
@@ -780,9 +821,11 @@ h4 {
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF!important;
+    color: black;
 }
-
+.opacity-Time{ 
+    opacity: 1;
+}
 .btn-atomic-tangerine:hover {
     background: #c27956!important;
     color: #FFFFFF!important;
@@ -810,19 +853,19 @@ h4 {
 }
 
 .bg-dots-bg {
-    background-image: url("img/dots-bg.png");
+    background-image: url("img/dots-bg.webp");
 }
 
 .bg-lines-h2-bg {
-    background-image: url("img/lines-h2-bg.png");
+    background-image: url("img/lines-h2-bg.webp");
 }
 
 .bg-banniere {
-    background-image: url("img/la-chouette-agence-banniere.jpg");
+    background-image: url("img/la-chouette-agence-banniere-compressed (1).webp");
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation.webp");
 }
 
 @media (max-width: 1024px) {
@@ -848,13 +891,13 @@ h4 {
     }
 }
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
     .b-parallax {
         background-attachment: scroll;
     }
 }
 
-@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
+@media only screen and (min-width: 1024px) and (max-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
     .b-parallax {
         background-attachment: scroll;
     }
@@ -872,10 +915,7 @@ h4 {
         overflow-x: hidden;
         position: relative;
     }
-    .bloc {
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
-    }
+
     .bloc-group,
     .bloc-group .bloc {
         display: block;
@@ -884,8 +924,6 @@ h4 {
     .bloc-fill-screen .fill-bloc-top-edge,
     .bloc-fill-screen .fill-bloc-bottom-edge {
         padding: 0 20px;
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
     }
 }
 
